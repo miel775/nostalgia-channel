@@ -1,0 +1,299 @@
+body {
+
+    /* background color */
+        --background-color: #fff;
+        --dark-background-color: rgb(219, 202, 159);
+  
+  
+      /* section colors */
+      --color1: #0A1252;
+      --color2: #1C390B;
+      --color3: #FFF;
+      --color4: #000;
+      --color5: #2E0A0A;
+      --color6: #D2d2d2;
+
+      /* gradient colors */
+      --gradientcolor1: linear-gradient(#474F96, #0A1252);
+      --gradientcolor2: linear-gradient(#1C390B,#289670);
+  
+      /* text colors */
+      --text-color-1: #fff;
+      --text-color-2: #000;
+  
+        
+      /*font*/
+        --font-text: "Garet book", sans-serif;
+        --font-text-bold: "Garet heavy", sans-serif;
+   
+      /* fontsize */
+        --h1: 4em;
+        --h2: 3em;
+        --h3: 2em;
+        --h4: 1.375em;
+        --p: 1em;
+        --link: 1em;
+  
+      /*forms and more*/
+        --radius1: 1em;
+        --radius2: 2em;
+
+      /*border*/
+        --bordersmall: 0.2em solid;
+        --borderbig: 0.4em solid;
+
+        /*  */
+        --shadow: hsl(240, 5%, 41%, 0.2) 0px 0px 29px 0px;
+        --dark-shadow: black 0px 0px 10px 0px;
+  
+      /* button styling */
+        --button-height: 3em;
+        --button-width: 6em;
+        --button-opacity: 80%;
+  }
+  
+  
+
+  /*color cirkles*/
+    .gradientcolor1 {
+        height: 100px;
+        width: 100px;
+        background-image: var(--gradientcolor1);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--color3);
+        border: var(--bordersmall) #000;
+    }
+    
+    .gradientcolor2 {
+        height: 100px;
+        width: 100px;
+        background-image: var(--gradientcolor2);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--color3);
+        border: var(--bordersmall) #000;
+    }
+    
+    .selcolor1 {
+        height: 100px;
+        width: 100px;
+        background-color: var(--color1);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--color3);
+        border: var(--bordersmall) #000;
+    }
+
+    .selcolor2 {
+        height: 100px;
+        width: 100px;
+        background-color: var(--color2);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--color3);
+        border: var(--bordersmall) #000;
+    }
+
+    .selcolor3 {
+        height: 100px;
+        width: 100px;
+        background-color: var(--color3);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--text-color-2);
+        border: var(--bordersmall);
+    }
+
+    .selcolor4 {
+        height: 100px;
+        width: 100px;
+        background-color: var(--color4);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--text-color-1);
+        border: var(--bordersmall) #fff;
+    }
+
+    .selcolor5 {
+        height: 100px;
+        width: 100px;
+        background-color: var(--color5);
+        border-radius: var(--radius1);
+        text-align: center;
+        color: var(--text-color-1);
+        border: var(--bordersmall) #000;
+    }
+
+    .textcolor1 {
+        color: var(--text-color-1);
+        background-color: var(--color1);
+        padding: 0.1em;
+        border-radius: var(--radius1);
+    }
+
+    .textcolor2 {
+        color: var(--textcolor-2);
+        border-radius: var(--radius1);
+    }
+
+  
+  /*font*/
+      #typografie {
+        font-family: var(--font-text);
+      }
+  
+    h1 {
+        font-size: var(--h1);
+      }
+  
+    h2 {
+        font-size: var(--h2);
+      }
+  
+    h3 {
+        font-size: var(--h3);
+      }
+
+    h4 {
+        font-size: var(--h4);
+    }
+  
+    p {
+        font-size: var(--p);
+        font-size: 700;
+      }
+
+    link {
+        font-size: var(--link);
+        text-decoration: none;
+      }
+  
+  
+  
+  /*forms & elements*/
+    .ol {
+      font-size: var(--font-size-small);
+    }
+      
+    .ul {
+      font-size: var(--font-size-small);
+    }
+  
+    .table {
+      font-size: var(--font-size-small);
+    }
+  
+    #formulieren{
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      gap: 5em;
+    }
+  
+    .input1{
+      border-radius: var(--radius-card);
+      border-color: var(--section-color-5);
+      outline-color: var(--section-color-5);
+    }
+  
+    .input1:hover{
+      background-color: var(--section-color-2);
+    }
+  
+    .input1 {
+      border-radius: var(--radius-card);
+    }
+  
+    fieldset{
+      color: var(--section-color-5);
+      accent-color: var(--section-color-5);
+    }
+  
+    .searchbar{
+      border-radius: var(--radius-card);
+      border-color: var(--section-color-5);
+      outline-color: var(--section-color-5);
+    }
+  
+    .searchbar:hover{
+      background-color: var(--section-color-2);
+    }
+  
+    .tel{
+      border-radius: var(--radius-card);
+      border-color: var(--section-color-5);
+      outline-color: var(--section-color-5);
+    }
+  
+    .tel:hover{
+      background-color: var(--section-color-2);
+    }
+  
+    .label2 {
+        border-radius: var(--radius-big-card);
+        font: var(--font-text-bold);
+        color: var(--section-color-5);
+    }
+  
+    .button-green{
+      background-color: var(--section-color-5);
+      color: var(--section-color-2);
+      border-radius: var(--radius-card);
+      border: none;
+    }
+  
+    .button-brown{
+      background-color: var(--section-color-6);
+      color: var(--section-color-4);
+      border-radius: var(--radius-card);
+      border: none;
+    }
+  
+    .button-beige{
+      background-color: var(--section-color-2);
+      color: var(--section-color-5);
+      border-radius: var(--radius-card);
+      border: none;
+    }
+  
+    .button-green:hover{
+      opacity: var(--button-opacity);
+    }
+  
+    .button-brown:hover{
+      opacity: var(--button-opacity);
+    }
+  
+    .button-beige:hover{
+      opacity: var(--button-opacity);
+    }
+  
+    input:invalid{
+      background-color: var(--invalid-color);
+      opacity: 50%;
+    }
+  
+    input:valid{
+      background-color: var(--valid-color);
+      opacity: 50%;
+    }
+
+    @font-face {
+        font-family: "Garet Heavy";
+        src: url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.eot");
+        src: url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/1e448c1940b5b2e20a8559ec2f4c6a1f.svg#Garet Heavy")format("svg");
+    }
+
+    @font-face {
+        font-family: "Garet Book";
+        src: url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.eot");
+        src: url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/5ebe3f5f5a6cdaffeafd16be0c93df0b.svg#Garet Book")format("svg");
+    }
