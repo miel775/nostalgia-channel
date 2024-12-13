@@ -1,35 +1,6 @@
-
-:root {
-    /* colors */
-    --color1: #0A1252;
-    --color2: #1C390B;
-    --color3: #FFF;
-    --color4: #000;
-    --color5: #2E0A0A;
-    --gradientcolor1: linear-gradient(#474F96, #0A1252);
-    --gradientcolor2: linear-gradient(#1C390B,#289670);
-
-    /* font */
-    --h1: 5.5em;
-    --h2: 3em;
-    --h3: 1.75em;
-    --h4: 1.375em;
-    --p: 1em;
-    --link: 1em;
-
-
-    /* forms */
-    --borderwidthstandard: 0.25em #000;
-    --borderradius: 0.5em;
-    --tabborder1: 0.25em #FFF;
-    --tabsize: 2.5em;
-    --
-}
-
 body {
-    overflow: hidden;
-    background-color: #0A1252;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: garet book, Arial, Helvetica, sans-serif;
+    text-decoration: none;
   }
 
 h1 {
@@ -53,14 +24,50 @@ p {
 }
 
 header {
-    background-color:#ffffff;
-    height: 40px;
+    background-color: var(--color6);
+    height: 3em;
     display: flex;
+    gap: 0.3em;
+    justify-content: center;
+    @media (min-width: 700px) { 
+        height: 4em;
+    }
 }
 
-.mobile-header {
-    @media screen (min-width: 500px) { 
-        background-color: #0A1252;
+header a {
+    background-color: var(--color6);
+    color: var(--color4);
+    padding: var(--default-padding);
+    border-radius: var(--radius1);
+    border: var(--color1) 5px solid;
+    font-weight: 800;
+    font-family: garet;
+    height: 1.5em;
+    text-decoration: none;
+    margin-top: 0.6em;
+
+}
+
+
+header a.active {
+    background-color: var(--color3);
+    color: var(--color4);
+    padding: var(--default-padding);
+    border-radius: var(--radius1);
+    border: var(--color1) 5px solid;
+    height: 1.5em;
+    font-family: garet heavy;
+    text-decoration: none;
+}
+
+.desktopheader {
+    @media  (max-width:700px) {
+        display: none;
+    }
+}
+
+.mobileheader {
+    @media (min-width: 700px) { 
         display: none;
     }
 }
@@ -84,13 +91,44 @@ header {
 
 
 .banner {
-    background-image: linear-gradient(#474F96, #0A1252);
-}
-.banner img {
-    scale: 25%;
-    margin-right: 100%;
+    background-image: var(--gradientcolor1);
+    height: 75vh;
 }
 
-.segamastersystem {
-    border-radius: 1em;
+.banner img {
+    position: absolute;
+    scale: 35%;
+    top: -17px;
+}
+
+
+
+.database {
+    display: flex;
+    width: 100%;
+
+}
+
+.projects {
+    background-image: var(--gradientcolor1);
+    height: 50vh;
+}
+
+.blogs {
+    background-image: var(--gradientcolor2);
+    height: 50vh;
+}
+
+.shop {
+    background-image: var(--gradientcolor1);
+    height: 50vh;
+}
+
+.contact {
+    background-image: var(--gradientcolor2);
+    height: 50vh;
+}
+
+footer {
+    background-color: var(--color6);
 }

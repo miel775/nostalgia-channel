@@ -1,11 +1,11 @@
 body {
 
-    /* background color */
+        /* background color */
         --background-color: #fff;
         --dark-background-color: rgb(219, 202, 159);
   
   
-      /* section colors */
+        /* section colors */
       --color1: #0A1252;
       --color2: #1C390B;
       --color3: #FFF;
@@ -13,20 +13,20 @@ body {
       --color5: #2E0A0A;
       --color6: #D2d2d2;
 
-      /* gradient colors */
+        /* gradient colors */
       --gradientcolor1: linear-gradient(#474F96, #0A1252);
       --gradientcolor2: linear-gradient(#1C390B,#289670);
   
-      /* text colors */
+        /* text colors */
       --text-color-1: #fff;
       --text-color-2: #000;
   
         
-      /*font*/
+        /*font*/
         --font-text: "Garet book", sans-serif;
         --font-text-bold: "Garet heavy", sans-serif;
    
-      /* fontsize */
+        /* fontsize */
         --h1: 4em;
         --h2: 3em;
         --h3: 2em;
@@ -34,22 +34,27 @@ body {
         --p: 1em;
         --link: 1em;
   
-      /*forms and more*/
+        /*forms and more*/
         --radius1: 1em;
         --radius2: 2em;
 
-      /*border*/
+        /*border*/
         --bordersmall: 0.2em solid;
         --borderbig: 0.4em solid;
 
         /*  */
         --shadow: hsl(240, 5%, 41%, 0.2) 0px 0px 29px 0px;
         --dark-shadow: black 0px 0px 10px 0px;
+
+        /*padding margin*/
+        --default-padding: 0.3em;
+        --default-margin: 0.3em;
   
-      /* button styling */
-        --button-height: 3em;
-        --button-width: 6em;
+        /* button styling */
         --button-opacity: 80%;
+
+        /* animation speed */
+        --animation-speed: 0.3s;
   }
   
   
@@ -234,27 +239,18 @@ body {
         font: var(--font-text-bold);
         color: var(--section-color-5);
     }
-  
-    .button-green{
-      background-color: var(--section-color-5);
-      color: var(--section-color-2);
-      border-radius: var(--radius-card);
-      border: none;
+
+    .navigation{
+      background-color: var(--color6);
+      color: var(--color4);
+      padding: var(--default-padding);
+      border-radius: var(--radius1);
+      border: var(--color1) 5px solid;
+      font-weight: 800;
+      font-family: garet;
     }
   
-    .button-brown{
-      background-color: var(--section-color-6);
-      color: var(--section-color-4);
-      border-radius: var(--radius-card);
-      border: none;
-    }
-  
-    .button-beige{
-      background-color: var(--section-color-2);
-      color: var(--section-color-5);
-      border-radius: var(--radius-card);
-      border: none;
-    }
+
   
     .button-green:hover{
       opacity: var(--button-opacity);
