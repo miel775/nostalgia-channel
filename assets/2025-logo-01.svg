@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 12px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #0a1252;
+        font-family: Jersey20-Regular, 'Jersey 20';
+        font-size: 48px;
+        stroke-width: .25px;
+      }
+
+      .cls-4 {
+        fill: #4b4b4b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-4" x="250.22" y="187.53" width="500" height="625"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-1" x="300.22" y="229.53" width="400" height="400"/>
+    <line class="cls-2" x1="300.22" y1="241.03" x2="700.22" y2="241.03"/>
+    <line class="cls-2" x1="300.22" y1="248.03" x2="700.22" y2="248.03"/>
+    <line class="cls-2" x1="300.22" y1="255.03" x2="700.22" y2="255.03"/>
+    <line class="cls-2" x1="300.22" y1="262.03" x2="700.22" y2="262.03"/>
+    <line class="cls-2" x1="303.22" y1="269.03" x2="703.22" y2="269.03"/>
+    <line class="cls-2" x1="303.22" y1="276.03" x2="703.22" y2="276.03"/>
+    <line class="cls-2" x1="303.22" y1="283.03" x2="703.22" y2="283.03"/>
+    <line class="cls-2" x1="303.22" y1="290.03" x2="703.22" y2="290.03"/>
+    <line class="cls-2" x1="300.22" y1="297.03" x2="700.22" y2="297.03"/>
+    <line class="cls-2" x1="300.22" y1="304.03" x2="700.22" y2="304.03"/>
+    <line class="cls-2" x1="300.22" y1="311.03" x2="700.22" y2="311.03"/>
+    <line class="cls-2" x1="300.22" y1="318.03" x2="700.22" y2="318.03"/>
+    <line class="cls-2" x1="303.22" y1="325.03" x2="703.22" y2="325.03"/>
+    <line class="cls-2" x1="303.22" y1="332.03" x2="703.22" y2="332.03"/>
+    <line class="cls-2" x1="303.22" y1="339.03" x2="703.22" y2="339.03"/>
+    <line class="cls-2" x1="303.22" y1="346.03" x2="703.22" y2="346.03"/>
+    <line class="cls-2" x1="300.22" y1="353.03" x2="700.22" y2="353.03"/>
+    <line class="cls-2" x1="300.22" y1="360.03" x2="700.22" y2="360.03"/>
+    <line class="cls-2" x1="300.22" y1="367.03" x2="700.22" y2="367.03"/>
+    <line class="cls-2" x1="300.22" y1="374.03" x2="700.22" y2="374.03"/>
+    <line class="cls-2" x1="303.22" y1="381.03" x2="703.22" y2="381.03"/>
+    <line class="cls-2" x1="303.22" y1="388.03" x2="703.22" y2="388.03"/>
+    <line class="cls-2" x1="303.22" y1="395.03" x2="703.22" y2="395.03"/>
+    <line class="cls-2" x1="303.22" y1="402.03" x2="703.22" y2="402.03"/>
+    <line class="cls-2" x1="300.22" y1="409.03" x2="700.22" y2="409.03"/>
+    <line class="cls-2" x1="300.22" y1="416.03" x2="700.22" y2="416.03"/>
+    <line class="cls-2" x1="300.22" y1="423.03" x2="700.22" y2="423.03"/>
+    <line class="cls-2" x1="300.22" y1="430.03" x2="700.22" y2="430.03"/>
+    <line class="cls-2" x1="303.22" y1="437.03" x2="703.22" y2="437.03"/>
+    <line class="cls-2" x1="303.22" y1="444.03" x2="703.22" y2="444.03"/>
+    <line class="cls-2" x1="303.22" y1="451.03" x2="703.22" y2="451.03"/>
+    <line class="cls-2" x1="303.22" y1="458.03" x2="703.22" y2="458.03"/>
+    <line class="cls-2" x1="300.22" y1="465.03" x2="700.22" y2="465.03"/>
+    <line class="cls-2" x1="300.22" y1="472.03" x2="700.22" y2="472.03"/>
+    <line class="cls-2" x1="300.22" y1="479.03" x2="700.22" y2="479.03"/>
+    <line class="cls-2" x1="300.22" y1="486.03" x2="700.22" y2="486.03"/>
+    <line class="cls-2" x1="303.22" y1="493.03" x2="703.22" y2="493.03"/>
+    <line class="cls-2" x1="303.22" y1="500.03" x2="703.22" y2="500.03"/>
+    <line class="cls-2" x1="303.22" y1="507.03" x2="703.22" y2="507.03"/>
+    <line class="cls-2" x1="303.22" y1="514.03" x2="703.22" y2="514.03"/>
+    <line class="cls-2" x1="300.22" y1="521.03" x2="700.22" y2="521.03"/>
+    <line class="cls-2" x1="300.22" y1="528.03" x2="700.22" y2="528.03"/>
+    <line class="cls-2" x1="300.22" y1="535.03" x2="700.22" y2="535.03"/>
+    <line class="cls-2" x1="300.22" y1="542.03" x2="700.22" y2="542.03"/>
+    <line class="cls-2" x1="303.22" y1="549.03" x2="703.22" y2="549.03"/>
+    <line class="cls-2" x1="303.22" y1="556.03" x2="703.22" y2="556.03"/>
+    <line class="cls-2" x1="303.22" y1="563.03" x2="703.22" y2="563.03"/>
+    <line class="cls-2" x1="303.22" y1="570.03" x2="703.22" y2="570.03"/>
+    <line class="cls-2" x1="300.22" y1="577.03" x2="700.22" y2="577.03"/>
+    <line class="cls-2" x1="300.22" y1="584.03" x2="700.22" y2="584.03"/>
+    <line class="cls-2" x1="300.22" y1="591.03" x2="700.22" y2="591.03"/>
+    <line class="cls-2" x1="300.22" y1="598.03" x2="700.22" y2="598.03"/>
+    <line class="cls-2" x1="303.22" y1="605.03" x2="703.22" y2="605.03"/>
+    <line class="cls-2" x1="303.22" y1="612.03" x2="703.22" y2="612.03"/>
+    <line class="cls-2" x1="303.22" y1="619.03" x2="703.22" y2="619.03"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-4" x="300.22" y="680.53" width="400" height="75"/>
+    <image width="512" height="256" transform="translate(352.73 318.41) scale(.58)" xlink:href="../../../AppData/Local/Temp/AI_28_2/Adobe/AISVG/0/2025-logo-01/2025-logo-011.png"/>
+    <text class="cls-3" transform="translate(335.39 506.19)"><tspan x="0" y="0">Nostalgia Channel</tspan></text>
+    <line class="cls-2" x1="303.22" y1="626.03" x2="703.22" y2="626.03"/>
+  </g>
+</svg>

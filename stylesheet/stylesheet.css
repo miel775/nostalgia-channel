@@ -21,10 +21,10 @@ body {
       --text-color-1: #fff;
       --text-color-2: #000;
   
-        
         /*font*/
         --font-text: "Garet book", sans-serif;
         --font-text-bold: "Garet heavy", sans-serif;
+        --font-general: "Jersey 20", serif;
    
         /* fontsize */
         --h1: 4em;
@@ -33,10 +33,7 @@ body {
         --h4: 1.375em;
         --p: 1em;
         --link: 1em;
-  
-        /*forms and more*/
-        --radius1: 1em;
-        --radius2: 2em;
+
 
         /*border*/
         --bordersmall: 0.2em solid;
@@ -55,6 +52,9 @@ body {
 
         /* animation speed */
         --animation-speed: 0.3s;
+
+        /* general dimension */
+        --general-dimension: -15deg, 15deg, 5deg;
   }
   
   
@@ -64,7 +64,6 @@ body {
         height: 100px;
         width: 100px;
         background-image: var(--gradientcolor1);
-        border-radius: var(--radius1);
         text-align: center;
         color: var(--color3);
         border: var(--bordersmall) #000;
@@ -272,6 +271,12 @@ body {
     input:valid{
       background-color: var(--valid-color);
       opacity: 50%;
+    }
+
+    .jersey-20-regular {
+      font-family: "Jersey 20", serif;
+      font-weight: 400;
+      font-style: normal;
     }
 
     @font-face {
